@@ -1,5 +1,5 @@
 #!/usr/bin/python
-# Copyright (c) 2018 Dell Inc.
+# Copyright (c) 2015 Dell Inc.
 #
 # Licensed under the Apache License, Version 2.0 (the "License"); you may
 # not use this file except in compliance with the License. You may obtain
@@ -206,6 +206,4 @@ if __name__ == '__main__':
 
     # read the tree out
     sg_id_list = scheduler_group_get_example(port_id=port_id, level=2)
-
-
 
